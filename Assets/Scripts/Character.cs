@@ -12,7 +12,7 @@ public class Character : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
+        this.gameObject.tag = "Player";
     }
 
     // Update is called once per frame
